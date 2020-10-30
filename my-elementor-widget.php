@@ -167,7 +167,7 @@ final class MY_Elementor_Widget {
             self::MINIMUM_ELEMENTOR_VERSION
         );
 
-        printf( '<div class="notice notice-warning is-dimissible"><p>%1$s</p></div>', $message );
+        printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
     }
 
     /**
@@ -184,7 +184,7 @@ final class MY_Elementor_Widget {
             self::MINIMUM_PHP_VERSION
         );
 
-        printf( '<div class="notice notice-warning is-dimissible"><p>%1$s</p></div>', $message );
+        printf( '<div class="notice notice-warning is-dismissible"><p>%1$s</p></div>', $message );
     }
 
 }
